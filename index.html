@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body>
+  <body style="font-family: Arial, Helvetica, sans-serif">
     <nav id="nav">
       <h1>Matthias Grgic</h1>
       <div>
@@ -31,7 +31,11 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
         sunt mollitia repellendus, laboriosam quos sapiente voluptatum nemo
         asperiores quaerat ullam eligendi, magnam alias? Modi quas beatae
-        reiciendis eligendi aliquid. Ratione?
+        reiciendis eligendi aliquid. Ratione? Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Necessitatibus sunt mollitia repellendus,
+        laboriosam quos sapiente voluptatum nemo asperiores quaerat ullam
+        eligendi, magnam alias? Modi quas beatae reiciendis eligendi aliquid.
+        Ratione?
       </p>
     </section>
     <br />
@@ -49,17 +53,41 @@
     <section id="bio">
       <label for="bio"><h4>BIO</h4></label>
       <ul>
+        <li>Neue Fische</li>
         <li>Political Science @ Goethe Universität Frankfurt</li>
         <li>Music Production</li>
         <li>Graphic Design</li>
-        <li>Neue Fische</li>
       </ul>
     </section>
     <br />
 
     <section id="contact">
       <label for="contact"><h4>CONTACT</h4></label>
-      <p>matthias.grgic@gmail.com</p>
+      <form method="text">
+        <div>
+           
+        <div>
+            <label for="Name">Name</label><br>
+            <input type="Name" name="Name"><br>
+        </div>
+        <br>
+        <div>
+            <label for="email">E-Mail</label><br>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message">...</textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="newsletter" id="newsletter"/>
+            <label for="newsletter">Yes, please send me your Newsletter</label>
+        </div>
+        <br>
+            <button>Submit</button>
+
+    </form>
     </section>
     <br />
     <section id="links">
