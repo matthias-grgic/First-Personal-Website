@@ -5,103 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   </head>
-  <body style="font-family: Arial, Helvetica, sans-serif">
-    <nav id="nav">
-      <h1>Matthias Grgic</h1>
-      <div>
-        <a href="#about">ABOUT ME</a>
-        <a href="#bio">BIO</a>
-        <a href="#skills">SKILLS</a>
-        <a href="#contact">CONTACT</a>
-        <a href="#links">LINKS</a>
-        <a href="#impressum">IMPRESSUM</a>
+  <body>
+    <div class="page">
+<!------------------------------------- NAV ----------------------------------->
+     
+<div class="nav" id="nav">
+        <h1>MATTHIAS GRGIC</h1>
       </div>
-    </nav>
-    <br />
-    <main>
-      <section id="photo">
-        <img src="/images/profil.jpg" style="width: 300px" alt="profil-pic" />
-      </section>
-    </main>
-    <br />
-    <section id="about">
-      <label for="about"><h4>ABOUT ME</h4></label>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-        sunt mollitia repellendus, laboriosam quos sapiente voluptatum nemo
-        asperiores quaerat ullam eligendi, magnam alias? Modi quas beatae
-        reiciendis eligendi aliquid. Ratione? Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Necessitatibus sunt mollitia repellendus,
-        laboriosam quos sapiente voluptatum nemo asperiores quaerat ullam
-        eligendi, magnam alias? Modi quas beatae reiciendis eligendi aliquid.
-        Ratione?
-      </p>
-    </section>
-    <br />
-    <section id="skills">
-      <label for="skills"><h4>SKILLS</h4></label>
-      <ul>
-        <li>Web Development</li>
-        <li>Internet</li>
-        <li>Broswer</li>
-        <li>Vscode</li>
-        <li>Linux/Mac</li>
-      </ul>
-    </section>
-    <br />
-    <section id="bio">
+      <div class="nav-bar"> 
+        <div class="nav-bar-content-1"><a href="#about">ABOUT</a></div>
+        <div class="nav-bar-content-2"><a href="#bio">BIO</a></div>
+        <div class="nav-bar-content-3"><a href="#skills">SKILLS</a></div>
+        <div class="nav-bar-content-4"><a href="#contact">CONTACT</a></div>
+        <div class="nav-bar-content-5"><a href="#links">LINKS</a></div>
+        <div class="nav-bar-content-6"><a href="impressum.html">IMPRESSUM</a></div>
+      </div>
+      <br/>
+<!------------------------------------- PICTURE ------------------------------------->
+    <main>    
+        <div class="photo">
+          <img class="profilpic" src="/images/neu.png" alt="profil-pic"/>
+        </div>
+<!------------------------------------- ABOUT ------------------------------------->
+      <label for="about"><h4>ABOUT</h4></label>      
+      <div class="about" id="about">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+          sunt mollitia repellendus, laboriosam quos sapiente voluptatum nemo
+          asperiores quaerat ullam eligendi, magnam alias? Modi quas beatae
+          reiciendis eligendi aliquid. Ratione? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Necessitatibus sunt mollitia repellendus,
+          laboriosam quos sapiente voluptatum nemo asperiores quaerat ullam
+          eligendi, magnam alias? Modi quas beatae reiciendis eligendi aliquid.
+          Ratione?
+        </p>
+      </div>
+      <br />
+<!------------------------------------- SKILLS ----------------------------------->
+      <label for="skills"><h4>SKILLS</h4></label>      
+      <div class="skills" id="skills">
+        <ul>
+          <li>Web Development - HTML5, CSS3, JAVASRIPT</li>
+          <li>Internet, ETC, Digital, Usb</li>
+          <li>VSCODE, GIT, SLACK</li>
+
+          <li>Linux/Mac/Windows</li>
+        </ul>
+      </div>
+      <br />
+<!------------------------------------- BIO -------------------------------------->
       <label for="bio"><h4>BIO</h4></label>
-      <ul>
-        <li>Neue Fische</li>
-        <li>Political Science @ Goethe Universität Frankfurt</li>
-        <li>Music Production</li>
-        <li>Graphic Design</li>
-      </ul>
-    </section>
-    <br />
-
-    <section id="contact">
-      <label for="contact"><h4>CONTACT</h4></label>
-      <form method="text">
-        <div>
-           
-        <div>
-            <label for="Name">Name</label><br>
-            <input type="Name" name="Name"><br>
-        </div>
-        <br>
-        <div>
-            <label for="email">E-Mail</label><br>
-            <input type="email" name="email" id="email">
-        </div>
-        <br>
-        <div>
-            <label for="message">Message</label><br>
-            <textarea name="message" id="message">...</textarea>
-        </div>
-        <div>
-            <input type="checkbox" name="newsletter" id="newsletter"/>
-            <label for="newsletter">Yes, please send me your Newsletter</label>
-        </div>
-        <br>
-            <button>Submit</button>
-
-    </form>
-    </section>
-    <br />
-    <section id="links">
-      <label for="links"><h4>LINKS</h4></label>
-      <a href="https://github.com/matthias-grgic">Github Account</a>
-    </section>
-    <br />
-    <br />
-    <br />
-    <footer>
-      © Copyright
-      <a href="#nav">HOME</a>
-      <a href="#nav">IMPRESSUM</a>
-      <a href="#nav">DATENSCHUTZ</a>
-    </footer>
+      <div class="bio" id="bio">
+        <ul>
+          <li>Neue Fische BOOTCAMP 2021-2022</li>
+          <li>Political Science @ Goethe Universität</li>
+          <li>Music Production - Production</li>
+          <li>Graphic Design - FREELANCER</li>
+        </ul>
+      </div>
+      <br />
+<!------------------------------------- CONTACT ---------------------------------->
+      <div class="contact" id="contact">
+        <label for="contact"><h4>CONTACT</h4></label>
+        <form method="text">
+          <br>
+          <div>
+              <label for="email">E-MAIL</label><br>
+              <input type="email" name="email" id="email">
+          </div>
+          <br>
+          <div>
+              <label for="message">MESSAGE</label><br>
+              <textarea name="message" id="message"></textarea>
+          </div>
+          <br>
+          <div class="newsletter">
+            <button class="button1">SUBMIT</button>
+            <div class="checkbox1"> 
+            <input type="checkbox" name="checkbox" id="checkbox"/>
+              <label for="checkbox">SUBSCRIBE TO MY NEWSLETTER</label>
+            </div>
+          </div>
+      </form>
+    </div>
+      <br />
+<!------------------------------------- LINKS ------------------------------------>
+      <div class="links-profile" id="links">
+        <label for="links"><h4>LINKS</h4></label>
+        <a href="https://github.com/matthias-grgic" target="_blank">Github Account</a>
+        <a href="https://talents.neuefische.com/student/e0242d7f-59f6-4b06-a076-f0935a187e5b" target="_blank">Neue Fische Talent Page</a>
+      </div>
+      <br />
+      <br />
+      <br />
+    </main>
+<!------------------------------------- FOOTER ----------------------------------->
+      <footer class="footer" id="impressum">
+        © Copyright 2021 - MG
+        <div class="links-bottom"></div>
+        <a href="#nav">HOME</a>
+        <a href="impressum.html" target="_blank">IMPRESSUM</a>
+        <a href="https://de.wikipedia.org/wiki/Datenschutz" target="_blank">DATENSCHUTZ</a>
+      </div>
+      </footer>
+  </div>
   </body>
 </html>
