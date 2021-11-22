@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  xborder-style: solid;
 }
 
 a {
@@ -9,7 +8,8 @@ a {
   font-weight: bold;
 }
 
-.about {
+.about,
+.bio {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -24,16 +24,6 @@ a:hover {
   color: #d9fb8a;
 }
 
-.bio {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  align-items: center;
-  padding: 20px;
-  margin-left: 20px;
-  margin-right: 10px;
-}
-
 body {
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -43,13 +33,13 @@ body {
 }
 
 .button1 {
-  justify-content: center;
   text-align: center;
   background-color: transparent;
   color: white;
   border: 2px solid #d9fb8a;
   width: 100px;
   height: 30px;
+  margin-top: 10px;
 }
 
 .button1:hover {

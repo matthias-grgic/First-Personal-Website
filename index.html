@@ -10,24 +10,22 @@
   </head>
   <body>
     <div class="page">
-<!------------------------------------- NAV ----------------------------------->
-<div class="nav" id="nav">
+      <!-- NAV BAR -->
+<header class="nav" id="nav">
         <h1>MATTHIAS GRGIC</h1>
-        <br>
-      </div>
-      <div class="nav-bar"> 
+      </header>
+      <nav class="nav-bar"> 
         <a href="#about">ABOUT</a>
         <a href="#bio">BIO</a>
         <a href="#skills">SKILLS</a>
         <a href="#contact">CONTACT</a>
         <a href="#links">LINKS</a>
         <a href="impressum.html">IMPRESSUM</a>
-      </div>
-      <br/>
+      </nav>
       <main>
-<!------------------------------------- ABOUT ------------------------------------->
-      <label for="about"><h4>ABOUT</h4></label>      
-      <div class="about" id="about">
+<!-- ABOUT -->
+<h4>ABOUT</h4>´
+      <section class="about" id="about">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
           sunt mollitia repellendus, laboriosam quos sapiente voluptatum nemo
@@ -38,74 +36,60 @@
           eligendi, magnam alias? Modi quas beatae reiciendis eligendi aliquid.
           Ratione?
         </p>
-      </div>
-      <br />
-<!------------------------------------- PICTURE ------------------------------------->
-      <div class="photos">
+      </section>
+<!-- PICTURES -->
+      <section class="photos">
         <div class="photo-items"><img src="https://picsum.photos/80"><img></div>
         <div class="photo-items"><img src="https://picsum.photos/180"><img></div>
         <div class="photo-items"><img src="https://picsum.photos/150"><img></div>
         <div class="photo-items"><img src="https://picsum.photos/250"><img></div>
-      </div>
-      <br />
-      <br />
-  
-<!------------------------------------- BIO -------------------------------------->
-      <label for="bio"><h4>BIO</h4></label>
-      <div class="bio" id="bio">
+      </section>
+<!-- BIO -->
+<h4>BIO</h4>
+      <section class="bio" id="bio">
         <ul>
           <li>Neue Fische BOOTCAMP 2021-2022</li>
           <li>Political Science @ Goethe Universität</li>
           <li>Music Production - Production</li>
           <li>Graphic Design - FREELANCER</li>
         </ul>
-      </div>
-      <br />
-<!------------------------------------- CONTACT ---------------------------------->
-      <div class="contact" id="contact">
-        <label for="contact"><h4>CONTACT</h4></label>
-        <form method="text">
-          <br>
+      </section>
+<!-- CONTACT -->
+      <section class="contact" id="contact">
+<h4>CONTACT</h4>
+        <form method="get">
           <div>
               <label for="email">E-MAIL</label><br>
               <input type="email" name="email" id="email">
           </div>
-          <br>
           <div>
               <label for="message">MESSAGE</label><br>
               <textarea name="message" id="message"></textarea>
           </div>
-          <br>
+          <input type="checkbox" name="checkbox" id="checkbox"/>
+          <label for="checkbox">SUBSCRIBE TO MY NEWSLETTER</label>
           <div class="newsletter">
             <button class="button1">SUBMIT</button>
             <div class="checkbox1"> 
-            <input type="checkbox" name="checkbox" id="checkbox"/>
-              <label for="checkbox">SUBSCRIBE TO MY NEWSLETTER</label>
             </div>
           </div>
       </form>
-    </div>
-      <br />
-<!------------------------------------- LINKS ------------------------------------>
-      <div class="links-profile" id="links">
-        <label for="links"><h4>LINKS</h4></label>
+    </section>
+<!-- LINKS -->
+      <section class="links-profile" id="links">
+<h4>LINKS</h4>
         <a href="https://github.com/matthias-grgic" target="_blank">Github Account</a>
         <a href="https://talents.neuefische.com/student/e0242d7f-59f6-4b06-a076-f0935a187e5b" target="_blank">Neue Fische Talent Page</a>
-      </div>
-      <br />
-      <br />
-      <br />
+      </section>
     </main>
-<!------------------------------------- FOOTER ----------------------------------->
+<!-- FOOTER -->
       <footer class="footer" id="impressum">
         © Copyright 2021 - MG
-        <div class="links-bottom">
+        <section class="links-bottom">
         <div><a class="link bottom" href="#nav">HOME</a></div>
         <div><a class="link bottom" href="impressum.html" target="_blank">IMPRESSUM</a></div>
         <div><a class="link bottom" href="https://de.wikipedia.org/wiki/Datenschutz" target="_blank">DATENSCHUTZ</a></div>
-      </div>
-    </div>
+      </section>
       </footer>
-  </div>
   </body>
 </html>
