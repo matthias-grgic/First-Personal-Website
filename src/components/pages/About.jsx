@@ -46,12 +46,9 @@ const AboutText = styled.p`
     text-align: justify;
     white-space: normal;
     word-wrap: normal;
-    @media (max-width: 700px) {
+    /* @media (max-width: 900px) {
         width: 100%;
-    }
-    @media (max-width: 900px) {
-        width: 100%;
-    }
+    } */
 `
 
 const LinkSection = styled.section`
