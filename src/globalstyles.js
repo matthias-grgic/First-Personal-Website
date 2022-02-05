@@ -32,6 +32,11 @@ h2{
 h3{
   font-size: 3rem;
 }
+
+
+h4{
+  font-size: 2rem;
+}
 `
 
 export default GlobalStyle

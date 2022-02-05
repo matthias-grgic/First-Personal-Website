@@ -1,19 +1,18 @@
 import styled from "styled-components"
-import { NavLink } from "react-router-dom"
 import { NavHashLink } from "react-router-hash-link"
 
-export default function Navigation() {
+export default function Navigation({ flex }) {
     return (
         <NAVSection>
             <h2>
+                <NavLinkStyled smooth to='/'>
+                    <p>{flex}</p>
+                </NavLinkStyled>
                 <NavLinkStyled smooth to='/about'>
                     <p>ABOUT</p>
                 </NavLinkStyled>
-                <NavLinkStyled smooth to='/'>
+                <NavLinkStyled smooth to='/work'>
                     <p>WORK</p>
-                </NavLinkStyled>
-                <NavLinkStyled smooth to='/'>
-                    <p>CONTACT</p>
                 </NavLinkStyled>
             </h2>
         </NAVSection>
@@ -23,6 +22,7 @@ export default function Navigation() {
 const NAVSection = styled.div`
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 `
 
 const NavLinkStyled = styled(NavHashLink)`
