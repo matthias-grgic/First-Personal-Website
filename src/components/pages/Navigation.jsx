@@ -1,7 +1,16 @@
 import styled from "styled-components"
 import { NavHashLink } from "react-router-hash-link"
+import anime from "animejs/lib/anime.es.js"
 
 export default function Navigation({ flex }) {
+    anime({
+        targets: NavLinkStyled,
+        translateX: 250,
+        rotate: "1turn",
+        backgroundColor: "#FFF",
+        duration: 800,
+    })
+
     return (
         <NAVSection>
             <h2>
