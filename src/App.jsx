@@ -35,9 +35,10 @@ function App() {
 export default App
 
 const Main = styled.div`
-    background-image: url("https://media0.giphy.com/media/3oKIPaGG4PDQgQDFZe/giphy.gif?cid=790b761176da5e4a137bc9c1ecbd65e70bc49a56e850aaeb&rid=giphy.gif&ct=g");
+    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+    /* background-image: url("https://media0.giphy.com/media/3oKIPaGG4PDQgQDFZe/giphy.gif?cid=790b761176da5e4a137bc9c1ecbd65e70bc49a56e850aaeb&rid=giphy.gif&ct=g");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     color: #ffffff;
     display: flex;
     flex-direction: column;

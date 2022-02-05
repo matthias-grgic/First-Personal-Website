@@ -23,6 +23,12 @@ const NAVSection = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+    @media (max-width: 850px) {
+        h2 {
+            flex-direction: row;
+            font-size: rem;
+        }
+    }
 `
 
 const NavLinkStyled = styled(NavHashLink)`

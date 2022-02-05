@@ -1,7 +1,6 @@
 import styled from "styled-components"
 import GitHubLogo from "../img/github.png"
 import LinkedInLogo from "../img/linkedin.png"
-import NeueFischeLogo from "../img/neuefische.png"
 
 export default function Contact() {
     return (
@@ -12,9 +11,6 @@ export default function Contact() {
                 </a>
                 <a href='https://www.linkedin.com/feed/' target='_blank' rel='noopener noreferrer'>
                     <IMGStyled src={LinkedInLogo} alt='link to github profile' />
-                </a>
-                <a href='https://talents.neuefische.de/student/e0242d7f-59f6-4b06-a076-f0935a187e5b' target='_blank' rel='noopener noreferrer'>
-                    <IMGStyled src={NeueFischeLogo} alt='link to github profile' />
                 </a>
             </LinkSection>
         </ContactSection>
@@ -27,11 +23,15 @@ const ContactSection = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: auto;
     width: 100%;
     h3 {
         color: #3bdab7;
     }
+
+    a {
+        width: 50px;
+    }
+    margin-bottom: 20px;
 `
 
 const LinkSection = styled.section`
@@ -41,6 +41,5 @@ const LinkSection = styled.section`
 `
 
 const IMGStyled = styled.img`
-    width: 30px;
-    height: 100%;
+    width: 100%;
 `

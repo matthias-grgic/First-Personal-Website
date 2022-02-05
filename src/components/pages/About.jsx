@@ -24,6 +24,9 @@ const AboutSection = styled.div`
     h4 {
         color: #3bdab7;
     }
+    @media (max-width: 900px) {
+        padding: 30px;
+    }
 `
 
 const AboutText = styled.p`
