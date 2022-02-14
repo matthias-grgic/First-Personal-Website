@@ -3,4 +3,4 @@ updating my website with javascript/react.
 
 
 visit
-npmhttp://personal-website-beige-one.vercel.app/
+http://personal-website-beige-one.vercel.app/
