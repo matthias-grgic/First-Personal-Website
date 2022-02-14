@@ -1,29 +1,19 @@
 import styled from "styled-components"
 import { NavHashLink } from "react-router-hash-link"
-import anime from "animejs/lib/anime.es.js"
 
 export default function Navigation({ flex }) {
-    anime({
-        targets: NavLinkStyled,
-        translateX: 250,
-        rotate: "1turn",
-        backgroundColor: "#FFF",
-        duration: 800,
-    })
 
     return (
         <NAVSection>
-            <h2>
                 <NavLinkStyled smooth to='/'>
-                    <p>{flex}</p>
+                    <h2>{flex}</h2>
                 </NavLinkStyled>
                 <NavLinkStyled smooth to='/about'>
-                    <p>ABOUT</p>
+                    <h2>ABOUT</h2>
                 </NavLinkStyled>
                 <NavLinkStyled smooth to='/work'>
-                    <p>WORK</p>
+                    <h2>WORK</h2>
                 </NavLinkStyled>
-            </h2>
         </NAVSection>
     )
 }
@@ -31,12 +21,13 @@ export default function Navigation({ flex }) {
 const NAVSection = styled.div`
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+
     @media (max-width: 850px) {
+            flex-direction: column;
         h2 {
-            flex-direction: row;
-            font-size: rem;
+            font-size: 2rem;
         }
+
     }
 `
 
