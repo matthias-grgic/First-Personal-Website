@@ -1,5 +1,5 @@
 ## First Personal Website
-updating my website with javascript/react.
+🚧 updating the website from html/css to javascript/styled-components.
 
 
 visit
