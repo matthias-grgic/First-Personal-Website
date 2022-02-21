@@ -22,16 +22,12 @@ export default function Work() {
   return (
     <WorkSection>
       <SLIDE>
-        {workdata.map((item) => {
-          return (
-            <>
-              <Box>
-                <IMG src={PoolApp} />
-                <IMGText>{item.name}</IMGText>
-              </Box>
-            </>
-          )
-        })}
+        {workdata.map((item) => (
+          <Box>
+            <IMG src={PoolApp} />
+            <IMGText>{item.name}</IMGText>
+          </Box>
+        ))}
       </SLIDE>
     </WorkSection>
   )
