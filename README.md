@@ -1,6 +1,4 @@
 ## First Personal Website
-🚧 updating the website from html/css to javascript/styled-components.
-
 
 visit
 http://personal-website-beige-one.vercel.app/
